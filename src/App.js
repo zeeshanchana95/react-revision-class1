@@ -1,4 +1,5 @@
 import './App.css';
+import SampleCard from './SampleCard';
 
 //functional component
 function App() {
@@ -14,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {
+        {/* {
           list.map((listItem)=>{
             return(
               <>
@@ -25,7 +26,8 @@ function App() {
               </>
             )
           })
-        }
+        } */}
+        <SampleCard firstName="Zeeshan" lastName="Ahmed" />
       </header>
     </div>
   );
