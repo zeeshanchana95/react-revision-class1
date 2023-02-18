@@ -6,7 +6,7 @@ function App() {
     {
       firstName:'Zeeshan',
       lastName: 'Ahmed',
-      misc: 'Student of CS'
+      misc: 'Student of computer'
 
     }
   ]
