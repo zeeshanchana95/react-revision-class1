@@ -1,22 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
 
+//functional component
 function App() {
+  const list = [
+    {
+      firstName:'Zeeshan',
+      lastName: 'Ahmed',
+      misc: 'Student of CS'
+
+    }
+  ]
+  const username = 'someone';
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {
+          list.map((listItem)=>{
+            return(
+              <>
+                <h1>{listItem.firstName}</h1>
+                <h1>{listItem.lastName}</h1>
+                <h1>{listItem.misc}</h1>
+                
+              </>
+            )
+          })
+        }
       </header>
     </div>
   );
