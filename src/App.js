@@ -5,9 +5,10 @@ import SampleCard from './SampleCard';
 function App() {
   const list = [
     {
-      firstName:'Zeeshan',
+      firstName:'Zeeshaaan',
       lastName: 'Ahmed',
       misc: 'Student of Computer Science  '
+
 
     }
   ]
